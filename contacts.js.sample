@@ -1,0 +1,17 @@
+/*
+Contacts list for RPI-TWILIO-TTS:
+This is to register the SENDER phone number
+(The number you use to text FROM to the twilio service)
+
+After inserting numbers, rename to: 'contacts.js' 
+*/
+
+// register known phone numbers
+var list =
+	{
+		// "NUMBER":"NAME"
+		"+15555555555":"Bob",
+		"+15551234567":"Dylan"
+	}
+
+exports.list = list;

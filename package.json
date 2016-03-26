@@ -1,0 +1,14 @@
+{
+    "name": "rpi-twilio-api",
+    "main": "server.js",
+    "description": "A project by Alex Nguyen to create an API receiver from Twilio",
+    "dependencies": {
+        "express": "~4.13.4",
+        "body-parser": "~1.15.0"
+    },
+    "repository":{
+        "type": "git",
+        "url": "git://github.com/alxngyn/twilio-rpi-tts.git"
+    }
+
+}
